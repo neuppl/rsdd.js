@@ -1,10 +1,11 @@
 {
   "name": "rsdd",
+  "author": "neuppl",
   "collaborators": [
     "Steven Holtzen <s.holtzen@northeastern.edu>",
     "Matt Wang <matt@matthewwang.me>"
   ],
-  "description": "Rust decision diagrams.",
+  "description": "Rust decision diagrams. Currently: early prototype and unstable API.",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
@@ -22,5 +23,11 @@
   "sideEffects": [
     "./rsdd.js",
     "./snippets/*"
-  ]
+  ],
+  "scripts": {
+    "release": "np --no-release-draft"
+  },
+  "devDependencies": {
+    "np": "^8.0.4"
+  }
 }
